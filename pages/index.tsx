@@ -227,6 +227,7 @@ export default function Home() {
                 The Carbon Almanac
               </a></p>
           </div>
+          <a href="https://www.producthunt.com/posts/the-carbon-almanac-chatbot?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-the&#0045;carbon&#0045;almanac&#0045;chatbot" target="_blank"><img style={{ width: "250px", height: "54px" }} src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=382264&theme=neutral" alt="The&#0032;Carbon&#0032;Almanac&#0058;&#0032;Chatbot - Answers&#0032;climate&#0032;change&#0032;related&#0032;questions | Product Hunt" /></a>
         </div>
       </main>
     </>
