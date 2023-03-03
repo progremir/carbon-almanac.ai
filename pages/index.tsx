@@ -116,8 +116,22 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>The Carbon Almanac - Chat</title>
-        <meta name="description" content="The Carbon Almanac is a breakthrough, collaborative book that offers climate science facts without noise, confusion, or agendas – to help each of us become well-informed about climate change." />
+        {/* <!-- Primary Meta Tags --> */}
+        <title>The Carbon Almanac - Chatbot</title>
+        <meta name="title" content="The Carbon Almanac - Chatbot" />
+        <meta name="description" content="Ask all the questions you have about climate change here!" />
+
+        {/* <!-- Open Graph / Facebook --> */}
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="The Carbon Almanac - Chatbot" />
+        <meta property="og:description" content="Ask all the questions you have about climate change here!" />
+        <meta property="og:image" content="https://carbon.progremir.dev/og-image.svg" />
+
+        {/* <!-- Twitter --> */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:title" content="The Carbon Almanac - Chatbot" />
+        <meta property="twitter:description" content="Ask all the questions you have about climate change here!" />
+        <meta property="twitter:image" content="https://carbon.progremir.dev/og-image.svg" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
