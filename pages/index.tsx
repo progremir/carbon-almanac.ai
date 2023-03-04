@@ -117,27 +117,27 @@ export default function Home() {
     <>
       <Head>
         {/* <!-- Primary Meta Tags --> */}
-        <title>The Carbon Almanac - Chatbot</title>
-        <meta name="title" content="The Carbon Almanac - Chatbot" />
-        <meta name="description" content="Ask all the questions you have about climate change here!" />
+        <title>The Carbon Almanac: Chatbot</title>
+        <meta name="title" content="The Carbon Almanac: Chatbot" />
+        <meta name="description" content="Can we still fix the climate? Ask all the questions you have about climate change here!" />
 
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="The Carbon Almanac - Chatbot" />
-        <meta property="og:description" content="Ask all the questions you have about climate change here!" />
+        <meta property="og:title" content="The Carbon Almanac: Chatbot" />
+        <meta property="og:description" content="Can we still fix the climate? Ask all the questions you have about climate change here!" />
         <meta property="og:image" content="https://carbon.progremir.dev/og-image.svg" />
 
         {/* <!-- Twitter --> */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:title" content="The Carbon Almanac - Chatbot" />
-        <meta property="twitter:description" content="Ask all the questions you have about climate change here!" />
+        <meta property="twitter:title" content="The Carbon Almanac: Chatbot" />
+        <meta property="twitter:description" content="Can we still fix the climate? Ask all the questions you have about climate change here!" />
         <meta property="twitter:image" content="https://carbon.progremir.dev/og-image.svg" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.topnav}>
-        <div className = {styles.navlogo}>
-          <Link href="/">The Carbon Almanac AI</Link>
+        <div>
+          <Link href="/"><h1 className={styles.navlogo}>The Carbon Almanac: Chatbot</h1></Link>
         </div>
         <div className = {styles.navlinks}>
           <a
