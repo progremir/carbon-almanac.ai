@@ -20,13 +20,7 @@ Next, we'll need to load our data source.
 
 Data ingestion happens in two steps.
 
-First, you should run
-
-```bash
-sh download.sh
-```
-
-This will download our data source (in this case the Langchain docs ).
+First, you should prepare you data into something digestable and it to the project folder. Then make sure `ingest.ts` is looking for a right file/folder and is using the correct [document loader](https://hwchase17.github.io/langchainjs/docs/modules/document_loaders/file_loaders/directory)
 
 Next, install dependencies and run the ingestion script:
 
